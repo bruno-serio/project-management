@@ -1,3 +1,10 @@
+.cache/*
+Debug/*
+build/*
+Build/*
+compile_commands.json
+
+
 # Prerequisites
 *.d
 
@@ -39,5 +46,3 @@
 
 # debug information files
 *.dwo
-
-.cache/*

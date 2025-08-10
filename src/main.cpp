@@ -3,7 +3,8 @@
 
 int main(int argc, char** argv) {
 	QGuiApplication QTApp(argc, argv);
-	QQmlApplicationEngine engine("../qml/main.qml");
+	QQmlApplicationEngine engine("../assets/qml/main.qml"); // TEMP
+	//QQmlApplicationEngine engine("./assets/qml/main.qml");
 	QTApp.exec();
 	return 0;
 }

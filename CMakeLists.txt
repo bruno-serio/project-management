@@ -21,6 +21,9 @@ find_package(Qt6 REQUIRED COMPONENTS Core Gui Qml)
 
 qt_standard_project_setup(REQUIRES 6.5)
 
+file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/assets/"
+     DESTINATION "${CMAKE_CURRENT_BINARY_DIR}/assets/")
+
 add_executable(projMgmt src/main.cpp)
 target_link_libraries(projMgmt PUBLIC test_module Qt6::Core Qt6::Gui Qt6::Qml)
 

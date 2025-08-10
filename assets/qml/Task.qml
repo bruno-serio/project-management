@@ -2,6 +2,6 @@ import QtQuick
 
 Rectangle {
     width: 200
-    height: 200
-    color: "green"
+    height: 100
+    color: "red"
 }
